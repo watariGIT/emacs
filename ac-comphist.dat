@@ -1,4 +1,110 @@
-((("drop_rate_splitrun_params" .
+((("cperl" .
+   [1 0 0 0 0])
+  ("x" .
+   [1])
+  ("ps_unit_without_ccv_boost" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ps_unit_with_ccv_boost" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("acpa_lt_tcpa_boost" .
+   [0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("acpaがcpv_actual_kpi_boost" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("expected_boost" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("ps_unit_with_tcv_boost" .
+   [1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("acpa_lt_tcpa" .
+   [1 0 0 0 0 0 1 0 0 0 0 0])
+  ("ps_unit_with_tcv" .
+   [0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("need_cpv_format" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("needs" .
+   [0 0 0 0 1])
+  ("use_parame_name" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("FOut::Bid::Algorithm::Pricing::CPVActualKpiBoost" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("FOut::Bid::Science::CPVManualBoost" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("get_boost_rate" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("actual_kpi" .
+   [4 0 2 1 0 0 0 4 0 1])
+  ("actual" .
+   [0 0 0 2 2 1])
+  ("cpv_manual_boost" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("boost_rate" .
+   [2 0 1 0 0 1 0 0 0 0])
+  ("cpv_format" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("ps_unit_without_ccv" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("apply" .
+   [1 0 0 1 0])
+  ("cpv_actual_kpi_boost" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("cpv_actual_kpi_aggregator" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("FOut::Bid::Science::PCVRBoost" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("boost_currency" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("get_cpv_manual_params" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("FOut::Bid::Algorithm::Pricing::CPVManualParamsRole" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("split" .
+   [1 0 0 0 0])
+  ("map" .
+   [2 0 0])
+  ("tcv_without_ccv" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("cpn_tcv_without_ccv" .
+   [0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("eq" .
+   [2 0])
+  ("acpa" .
+   [2 0 0 1])
+  ("rank_of_consumption_share" .
+   [0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("alpha" .
+   [0 0 0 1 0])
+  ("beta" .
+   [1 0 0 0])
+  ("_get_alpha_and_beta_and_delta" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0])
+  ("PercentileCut" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("FOut::Bid::Algorithm::Pricing::PCTRPCVRBoost" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("FOut::Bid::Prediction::ModelId" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("FOut::Bid::Prediction" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("FOut::Bid::Algorithm" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("NOT_LINE_CPC_CVR__EXPERIMENT_ID" .
+   [1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("get_splitrun_params" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("c" .
+   [20])
+  ("scaled_pctr" .
+   [0 0 0 1 0 0 0 0 0 0 0])
+  ("WM_DROP_MAPPING_EXPERIMENT_ID" .
+   [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("is_cut" .
+   [1 0 0 0 0 0])
+  ("phase" .
+   [0 0 0 1 1])
+  ("Test::MockTime" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("FOut::Logs::CLI::DeviceCTRFMPrediction" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("drop_rate_splitrun_params" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("elsif" .
    [1 0 0 1 1])
@@ -15,9 +121,9 @@
   ("LINE_CPC_VIDEO_CTR" .
    [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
   ("APP_CTR_L_INTEREST_V2_MODEL_FM" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+   [0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("WEB_CTR_PREDICTION" .
-   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+   [0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("system_expected_charge_price" .
    [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("tac_rate" .
@@ -27,13 +133,13 @@
   ("FOut::Bid::Algoritm::DropRate" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
   ("drop_rate" .
-   [2 0 0 0 0 0 0 0 0])
+   [2 0 1 0 0 0 0 0 0])
   ("boost_value" .
-   [1 0 0 0 0 1 0 0 2 0 1])
+   [1 0 0 0 0 2 0 0 2 0 1])
   ("CVRMFM_WEB_CTR_PREDICTION" .
    [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("C" .
-   [1])
+   [3])
   ("LIMG_CTR_PREDICTION" .
    [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("LVID_CTR_PREDICTION" .
@@ -41,11 +147,11 @@
   ("CTR" .
    [1 0 0])
   ("is_application" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+   [1 0 0 0 3 0 0 0 1 0 0 0 0 0])
   ("ctr_prediction" .
-   [0 0 0 0 2 1 0 0 0 0 0 0 0 0])
+   [0 0 0 0 2 1 0 0 0 0 0 0 0 1])
   ("cut_percent" .
-   [0 0 0 0 0 0 0 0 0 0 1])
+   [0 0 1 1 0 0 0 0 0 0 2])
   ("prepare_correct_log" .
    [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("cut_cvr" .
@@ -53,9 +159,9 @@
   ("m" .
    [1])
   ("correct_pctr_pcvr_log" .
-   [0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+   [0 0 1 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
   ("correct_pcvr_log" .
-   [0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0])
+   [1 0 0 0 2 1 0 0 0 0 0 0 0 0 0 0])
   ("check_params" .
    [0 0 0 0 0 0 1 0 0 0 0 0])
   ("invalid_params" .
@@ -77,9 +183,9 @@
   ("Test::MockObject::Extends" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
   ("new" .
-   [3 0 0])
+   [5 0 0])
   ("prediction" .
-   [0 0 0 0 1 0 0 0 0 0])
+   [0 0 0 0 2 0 0 0 0 0])
   ("ADJUSTER_DEFAULT_VALUE" .
    [1 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0])
   ("warn_msg" .
@@ -93,11 +199,11 @@
   ("science" .
    [0 0 0 1 0 0 0])
   ("defined" .
-   [0 0 0 0 2 0 0])
+   [0 0 0 1 4 0 0])
   ("if" .
-   [5 0])
+   [12 0])
   ("pred_model_id" .
-   [1 0 0 3 0 0 0 0 0 0 0 0 0])
+   [1 0 0 6 1 0 0 0 0 0 0 0 0])
   ("is_cpc_billing_cpn" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("rfp_locari" .
@@ -121,7 +227,7 @@
   ("cpc_pc_nrtg" .
    [0 0 1 0 0 0 0 0 0 0 0])
   ("a" .
-   [1])
+   [7])
   ("ctr_pred_role_pm" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
   ("spot_score_adjuster" .
@@ -135,15 +241,15 @@
   ("FOut::Bid::Context" .
    [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
   ("FOut::Bid" .
-   [0 0 0 0 0 0 1 0 0])
+   [0 0 0 0 0 0 2 0 0])
   ("FOut" .
-   [0 1 0 0])
+   [0 1 0 1])
   ("SPOT_SCORE_EXPERIMENT_ID" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("F" .
-   [1])
+   [2])
   ("use" .
-   [9 0 0])
+   [16 0 0])
   ("FOut::Logs::CLI::WebCpcCTRFMPrediction" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("Web" .
@@ -153,7 +259,7 @@
   ("top" .
    [0 0 1])
   ("self" .
-   [4 0 0 0])
+   [6 0 0 0])
   ("sudo" .
    [2 0 0 0])
   ("dushapp" .
@@ -167,7 +273,7 @@
   ("goto" .
    [0 1 0 0])
   ("params" .
-   [3 0 2 0 0 0])
+   [6 0 3 0 0 0])
   ("User" .
    [1 0 0 0])
   ("timeManagement" .
@@ -193,7 +299,7 @@
   ("nameString" .
    [1 0 0 0 0 1 0 1 0 0])
   ("name" .
-   [2 0 0 0])
+   [3 0 0 0])
   ("String" .
    [0 0 1 0 0 0])
   ("tweet" .
@@ -201,7 +307,7 @@
   ("readApi" .
    [0 0 0 1 1 0 0])
   ("delta" .
-   [0 0 1 0 0])
+   [8 0 3 4 0])
   ("t_batch" .
    [0 0 0 0 0 1 0])
   ("x_batch" .
@@ -249,7 +355,7 @@
   ("list" .
    [1 0 0 0])
   ("print" .
-   [3 0 1 0 0])
+   [5 0 1 0 0])
   ("List" .
    [4 0 0 0])
   ("push" .
@@ -297,7 +403,7 @@
   ("newCards" .
    [1 0 0 0 0 0 1 0])
   ("is" .
-   [15 0])
+   [17 0])
   ("append" .
    [0 0 0 0 1 0])
   ("cardsList" .
@@ -317,7 +423,7 @@
   ("doSuffle" .
    [0 0 2 0 0 0 0 0])
   ("result" .
-   [3 0 1 6 2 0])
+   [3 0 1 7 2 0])
   ("shuffles" .
    [9 0 0 0 0 0 0 0])
   ("NewScanner" .
@@ -339,7 +445,7 @@
   ("len" .
    [2 0 0])
   ("s" .
-   [13])
+   [16])
   ("count" .
    [11 0 1 0 1])
   ("end" .
@@ -367,7 +473,7 @@
   ("int" .
    [21 0 0])
   ("return" .
-   [4 0 1 11 6 0])
+   [4 0 1 15 6 1])
   ("double" .
    [2 0 0 1 0 0])
   ("Economic_development" .
@@ -437,7 +543,7 @@
   ("type" .
    [0 1 1 0])
   ("time" .
-   [3 0 2 2])
+   [5 0 2 2])
   ("float" .
    [2 0 0 0 0])
   ("func" .
@@ -489,7 +595,7 @@
   ("add" .
    [4 0 0])
   ("sub" .
-   [5 0 0])
+   [14 0 0])
   ("strlist" .
    [1 0 0 0 0 0 0])
   ("strs" .
@@ -665,7 +771,7 @@
   ("plt" .
    [1 0 0])
   ("Mouse" .
-   [3 0 0 0 0])
+   [4 0 0 1 0])
   ("south" .
    [0 1 0 0 0])
   ("Dice" .
@@ -681,9 +787,9 @@
   ("spot" .
    [2 0 0 0])
   ("else" .
-   [7 0 0 0])
+   [8 0 0 0])
   ("t" .
-   [1])
+   [5])
   ("key_name" .
    [1 0 0 0 0 1 0 0])
   ("grep-find" .
@@ -711,7 +817,7 @@
   ("match_type" .
    [0 0 0 0 0 0 1 0 0 0])
   ("opt" .
-   [8 0 0])
+   [10 0 0])
   ("rtg" .
    [1 0 0])
   ("segment" .
@@ -723,9 +829,9 @@
   ("make_context" .
    [0 0 0 0 0 0 1 0 1 0 0 0])
   ("b" .
-   [4])
+   [13])
   ("context" .
-   [3 0 3 4 0 1 0])
+   [5 0 3 9 0 2 0])
   ("sp_rtg_location" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 3])
   ("is_smartphone" .
@@ -737,7 +843,7 @@
   ("bucket156" .
    [1 0 0 0 0 0 0 0 0])
   ("my" .
-   [12 0])
+   [34 0])
   ("f" .
    [1])
   ("train_file_path" .
@@ -751,15 +857,15 @@
   ("_" .
    [1])
   ("unless" .
-   [3 0 0 0 1 0])
+   [4 0 0 0 2 0])
   ("splitrun" .
-   [1 0 2 0 0 0 0 0])
+   [2 0 2 0 0 0 0 0])
   ("conf" .
    [3 0 0 0])
   ("ADJUSTER_MAX_VALUE" .
    [0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("and" .
-   [2 0 0])
+   [7 0 0])
   ("or" .
    [1 0])
   ("model_99" .
@@ -769,7 +875,7 @@
   ("pc_rtg" .
    [0 0 1 1 0 0])
   ("subtest" .
-   [2 0 0 0 0 0 0])
+   [7 0 0 0 0 0 0])
   ("MAX_VALUE" .
    [0 0 2 1 1 0 0 0 0])
   ("FOut::Bid::Algorithm::SpotScore::CTRPredRole" .
@@ -795,7 +901,7 @@
   ("is_main_video" .
    [0 0 0 0 0 1 0 0 0 0 0 0 0])
   ("bid" .
-   [4 0 0])
+   [7 0 1])
   ("REWARD" .
    [0 0 0 0 0 1])
   ("param" .
@@ -805,7 +911,7 @@
   ("undefined" .
    [0 0 0 2 2 0 0 0 1])
   ("undef" .
-   [5 0 0 0 0])
+   [41 1 2 0 2])
   ("add_val" .
    [1 0 0 3 0 0 0])
   ("splitrun_params_set" .
@@ -823,19 +929,19 @@
   ("predict_product" .
    [0 0 0 1 1 0 0 0 0 1 0 0 0 0 0])
   ("pcvr" .
-   [1 0 0 0])
+   [2 0 2 0])
   ("pcvr_log" .
-   [1 0 0 0 0 0 0 0])
+   [4 0 0 0 0 2 0 1])
   ("is_rotate_evenly" .
    [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
   ("FOut::Bid::Algorithm::PercentileCut" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("qw" .
-   [1 0])
+   [2 0])
   ("PROBA_SCALE" .
    [0 0 0 1 0 0 0 0 0 0 0])
   ("boost" .
-   [2 0 1 0 0])
+   [6 1 1 0 0])
   ("FOut::Bid::Algorithm::DropRate" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
   ("get_drop_rate_instance" .
@@ -849,7 +955,7 @@
   ("CTRFM_" .
    [0 0 0 0 0 1])
   ("FOut::Bid::Prediction::WebCTRPrediction" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3])
   ("FOut::Bid::Prediction::CTRLineCPCVideo" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
   ("FOut::Bid::Prediction::CTRLineCPCImage" .
@@ -857,8 +963,182 @@
   ("algorithm" .
    [1 0 0 1 0 0 0 0 0])
   ("get_spot_score_model_id" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+   [0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("system_base_price" .
    [0 0 1 2 2 0 0 0 0 0 0 0 0 0 0 0 1])
   ("lsh" .
-   [0 0 1])))
+   [0 0 1])
+  ("CACHED_INSTANCE" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("FOut::Bid::Algorithm::DropRate::WMropMapping" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("WM_DROP_FUNC_ID" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("DropRate" .
+   [0 0 0 1 0 0 0 0])
+  ("TESR_EXPERIMENT_ID" .
+   [0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("predict_model_id_cvr" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("pctr_pcvr_boost" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("pctr_pcvr_percentile" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("Password" .
+   [0 0 0 0 1 0 0 0])
+  ("net_price" .
+   [1 0 0 0 0 0 0 0 0])
+  ("n" .
+   [5])
+  ("price" .
+   [2 0 0 0 0])
+  ("get_pcvr_boost_pricing" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("TRUE" .
+   [1 0 0 0])
+  ("price_bidded" .
+   [0 0 0 0 0 0 0 1 1 0 1 0])
+  ("product_percentile" .
+   [0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("d" .
+   [2])
+  ("models" .
+   [2 0 0 0 0 0])
+  ("logger" .
+   [0 0 0 0 1 0])
+  ("flush" .
+   [1 0 0 0 0])
+  ("prepare_test" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("cpn_id" .
+   [1 0 0 2 1 0])
+  ("set_pcvr_percentile_index" .
+   [0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("predict_model" .
+   [2 0 0 0 0 1 0 0 0 1 0 0 0])
+  ("Mock::Bid::Percentile" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("is_automated" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("set_pctr_percentile_index" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("network_id" .
+   [1 0 0 0 1 1 0 0 0 1])
+  ("ctr_predict_model_id" .
+   [0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("ctr" .
+   [1 0 0])
+  ("FOut::Bid::Prediction::CTRFMAppLInterestV2" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("FOut::Bid::Prediction::CPCCVRFMNotLine" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("is_app" .
+   [1 0 0 0 0 0])
+  ("cvr_prediction" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("cvr_predict_model_id" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("spot_score_model_id" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("host" .
+   [1 0 0 0])
+  ("value" .
+   [3 0 0 0 0])
+  ("test_data" .
+   [0 0 1 0 0 0 0 0 0])
+  ("expected_value" .
+   [1 1 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("no" .
+   [4 0])
+  ("cpn_tcpa" .
+   [1 0 0 0 0 0 0 0])
+  ("param_key" .
+   [0 0 0 0 0 1 0 0 0])
+  ("lower_bound_of_tcv" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("bound_of_cs_rank" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("lower_bound_of_acpa_percentile" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ps_unit_without_tcv" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0])
+  ("ps_unit_without_tcv_boost" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("splitrun_params" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("actual_kpi_key" .
+   [0 0 1 0 0 0 0 0 0 0 1 0 0 0])
+  ("percetile" .
+   [0 0 0 1 1 0 0 0 0])
+  ("percetile_boost" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("get_pctr_pcvr_percentile" .
+   [0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("NOTL_BOOST_SUFFIX" .
+   [0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0])
+  ("hoge" .
+   [1 0 0 0])
+  ("ret" .
+   [1 0 0])
+  ("percentile_to_cache" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("dao_mocked_get_parsed_percentile" .
+   [0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Dumper" .
+   [0 0 1 0 0 0])
+  ("with" .
+   [1 0 0 0])
+  ("dao" .
+   [1 0 0])
+  ("missing_key" .
+   [0 0 0 0 0 1 1 1 0 0 0])
+  ("percentile_ignore_cpn" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("campaign_id_unknown" .
+   [0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0])
+  ("campaign" .
+   [0 0 0 1 0 0 0 0])
+  ("predict_model_id_unknown" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("model" .
+   [1 0 0 0 0])
+  ("network_id_ignore_cpn_model" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("percentile_ignore_cpn_model" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("DUMMY_PERCENTILE2" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("DUMMY_PERCENTILE3" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("DUMMY_PERCENTILE4" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("DUMMY_PERCENTILE1" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("DUMMY_PERCENTILE5" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("web" .
+   [11 0 0])
+  ("app" .
+   [3 0 0])
+  ("CVR_PREDICTION" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("percent" .
+   [0 0 1 0 0 0 0])
+  ("_get_cut_percent" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("prepare_splitrun_params" .
+   [1 0 0 0 0 0 0 0 0 2 13 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("prepare_science_conf" .
+   [0 0 0 0 0 0 0 0 0 0 2 11 0 0 0 0 0 0 0 0])
+  ("logical_flow" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("以下自動入札におけるpCTRによる足切り用のパラメータ" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("default" .
+   [0 0 0 0 2 0 2])
+  ("predict_num" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("prediction_num" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("percentile" .
+   [0 0 0 0 0 0 0 1 0 0])))

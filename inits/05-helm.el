@@ -32,9 +32,6 @@
                      `(:background ,bg-color :foreground ,bg-color)))
       (setq-local cursor-type nil))))
 
-(setq helm-surfraw-default-browser-function 'browse-url-generic
-      browse-url-generic-program "google-chrome")
-
 (add-hook 'helm-minibuffer-set-up-hook
           'spacemacs//helm-hide-minibuffer-maybe)
 
